@@ -2,6 +2,10 @@ import { AiFillCopyrightCircle } from "react-icons/ai";
 import { MdMail } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
+/**
+ * * Footer component for Dwiki's portfolio.
+ * * Menampilkan copyright, kontak email, dan WhatsApp.
+ */
 const Footer = () => {
   return (
     <div id="intro" className="mt-4 mb-10 lg:mb-0">
@@ -13,19 +17,30 @@ const Footer = () => {
           <span>2025 All Rights Reserved.</span>
         </div>
         <div className="flex items-center">
+          <span>
+            Portofolio <span role="img" aria-label="love"></span> by{" "}
+            <span className="font-bold">Muhamad Dwiki Hermansyah</span>
+          </span>
+        </div>
+        <div className="hidden md:flex items-center gap-x-4">
           <a
-            href="https://www.fiverr.com/codeworthy"
+            href="mailto:dwikihermansyah17@gmail.com"
+            className="flex items-center hover:underline"
+            aria-label="Email Dwiki"
+          >
+            <MdMail className="mr-1 text-base" />
+            <span>dwikihermansyah17@gmail.com</span>
+          </a>
+          <a
+            href="https://wa.me/6281324676652"
             target="_blank"
             rel="noreferrer"
+            className="flex items-center hover:underline"
+            aria-label="WhatsApp Dwiki"
           >
-            Made with ❤️ by <span className="font-bold">Osama</span>
+            <AiOutlineWhatsApp className="mr-1 text-base" />
+            <span>+62 813-2467-6652</span>
           </a>
-        </div>
-        <div className="hidden md:flex items-center">
-          <div className="mr-1 text-base">
-            <MdMail />
-          </div>
-          <div>dwikihermansyah17@gmail.com</div>
         </div>
       </div>
     </div>
