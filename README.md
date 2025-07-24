@@ -1,51 +1,32 @@
 <div align="center">
 
-
   <br />
   <br />
   
   <img src="./public/readme-images/moj.png" />
 
-  <h2 align="center">Muhamad Dwiki Hermansyah - Personal portfolio</h2>
+  <h2 align="center">Muhamad Dwiki Hermansyah - Personal Portfolio</h2>
 
-This website is fully responsive personal portfolio, <br />Responsive for all devices, built using Nextjs, TailwindCSS only.
+Website ini adalah portofolio pribadi yang sepenuhnya responsif, <br />Dapat diakses di semua perangkat, dibangun menggunakan Next.js dan TailwindCSS.
 
-<a href="https://osamajavaid.vercel.app/"><strong>➥ Live Demo</strong></a>
+<a href="https://dwikih.vercel.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
 <br />
 
-### Demo Screeshots
+### Demo Screenshots
 
-![Osama Portfolio Desktop Demo](./public/readme-images/portfolio.png "Desktop Demo")
+![Dwiki Portfolio Desktop Demo](./public/readme-images/portfolio.png "Desktop Demo")
 
-### Prerequisites
+### Prasyarat
 
-Before you begin, ensure you have met the following requirements:
+Sebelum memulai, pastikan Anda telah memenuhi persyaratan berikut:
 
-- [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- [Git](https://git-scm.com/downloads "Download Git") harus terinstal di sistem operasi Anda.
 
-### Run Locally
+### Jalankan Secara Lokal
 
-To run **portfolio** locally, run this command on your git bash:
+Untuk menjalankan **portfolio** secara lokal, jalankan perintah berikut di terminal Anda:
 
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/osamajavaid/portfolio.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/osamajavaid/portfolio.git
-```
-
-### Contact
-
-If you want to contact with me you can reach me at [X](https://www.x.com/iosamajavaid).
-
-### License
-
-This project is **free to use** and does not contains any license.
+Linux dan macOS:
