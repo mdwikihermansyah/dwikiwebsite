@@ -17,7 +17,7 @@ Website ini adalah portofolio pribadi yang sepenuhnya responsif, <br />Dapat dia
 
 ### Demo Screenshots
 
-![Dwiki Portfolio Desktop Demo](./public/readme-images/portfolio.png "Desktop Demo")
+<!-- ![Dwiki Portfolio Desktop Demo](./public/readme-images/portfolio.png "Desktop Demo") -->
 
 ### Prasyarat
 

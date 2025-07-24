@@ -1,6 +1,6 @@
 import { useState } from "react";
 import BannerLayout from "../components/Common/BannerLayout";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
 import { HiMail, HiUser } from "react-icons/hi";
 import { BsChatTextFill } from "react-icons/bs";
@@ -54,15 +54,21 @@ const Contact = () => {
         <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
           <a
             className="hover:scale-125 ease-in-out duration-700"
-            href=""
+            href="https://wa.me/6281424676652"
             target="_blank"
             rel="noreferrer"
+          >
+            <FaWhatsapp />
+          </a>
+          <a
+            className="hover:scale-125 ease-in-out duration-700"
+            href="mailto:dwikihermansyah17@gmail.com"
           >
             <HiMail />
           </a>
           <a
             className="hover:scale-125 ease-in-out duration-700"
-            href="https://github.com/osamajavaid"
+            href="https://github.com/mdwikihermansyah"
             target="_blank"
             rel="noreferrer"
           >
@@ -70,24 +76,24 @@ const Contact = () => {
           </a>
           <a
             className="hover:scale-125 ease-in-out duration-700"
-            href="https://www.linkedin.com/in/iosamajavaid/"
+            href="https://www.linkedin.com/in/muhamaddwikihermansyah/"
             target="_blank"
             rel="noreferrer"
           >
             <FaLinkedin />
           </a>
           {/* <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/iosamajavaid" target='_blank' rel="noreferrer"><FaTwitter /></a> */}
-          <a
+          {/* <a
             className="hover:scale-125 ease-in-out duration-700 hidden sm:block"
             href="https://www.fiverr.com/codeworthy"
             target="_blank"
             rel="noreferrer"
           >
             <Fiverr_Icon />
-          </a>
+          </a> */}
           <a
             className="hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1"
-            href="#"
+            href="https://www.upwork.com/freelancers/~01f2525821b16127ec"
             target="_blank"
             rel="noreferrer"
           >
@@ -174,9 +180,10 @@ const Contact = () => {
           <a
             className="underline text-Snow"
             target="_blank"
-            href="https://github.com/mdwikihermansyah"
+            rel="noopener noreferrer"
+            href="https://wa.me/6281424676652"
           >
-            Be the one to integrate this!
+            Hubungi langsung via WhatsApp: 0814-2467-6652
           </a>
         </div>
       </Modal>

@@ -3,8 +3,8 @@ export const NAME = "Muhamad Dwiki Hermansyah";
 export const DESIGNATION = `Analyst System | Developer | Design UI/UX`;
 
 export const DETAILS = {
-  Residence: "Pakistan",
-  City: "Peshawar",
+  Residence: "Indonesia",
+  City: "Jakarta",
   Age: "23",
 };
 
@@ -57,7 +57,7 @@ export const TECH_STACK = [
 
 export const CONTACTS = {
   EMAIL: "dwikihermansyah17@gmail",
-  PHONE: "081324676652",
+  PHONE: "6281324676652",
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/mdwikihermansyah",
