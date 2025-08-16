@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
-import GlintsIcon from "../Icons/GlintsIcon";
-import JobstreetIcon from "../Icons/JobstreetIcon";
 import Contact from "./Contact";
 import Download from "./Download";
 import Languages from "./Languages";
